@@ -25,5 +25,7 @@ jobs:
         with:
           node-version: 18
       - name: Deploy
-        run: echo "deploying..."
+        run: |
+            echo "Started..."
+            echo "deploying..."
 
