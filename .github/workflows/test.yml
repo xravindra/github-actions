@@ -13,5 +13,6 @@ jobs:
       - name: Install Dependancies
         run: npm ci
       - name: Run tests
-        run: echo "${{ toJson(github) }}"
-        run: npm test
+        run: |
+            echo "${{ toJson(github) }}"
+            npm test
