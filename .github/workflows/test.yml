@@ -13,4 +13,5 @@ jobs:
       - name: Install Dependancies
         run: npm ci
       - name: Run tests
+        run: echo "${{ github }}"
         run: npm test
