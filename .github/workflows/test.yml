@@ -8,8 +8,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Node
         uses: actions/setup-node
-          with:
-            node-version: 18
+        with:
+          node-version: 18
       - name: Install Dependancies
         run: npm ci
       - name: Run tests
